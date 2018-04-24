@@ -1,0 +1,157 @@
+/*
+    TABLE OF CONTENTS:
+    1. GENERAL PAGE STYLES
+    2. HEADER STYLES
+    3. HORIZONTAL NAV BAR STYLES
+    4. MAIN CONTENT WRAPPER STYLES
+    5. MAIN CONTENT SECTION STYLES
+    6. RIGHT ASIDE STYLES
+    7. FOOTER STYLES
+*/
+
+
+
+
+
+
+/* 1. GENERAL PAGE STYLES
+---------------------------------- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 10%;
+    background-color: #AEAEAE;
+    position: relative;
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* 2. HEADER STYLES
+---------------------------------- */
+
+header {
+    background-color: #E7E5E6;
+    height: 145px;
+    position: relative;
+    display: flex;
+}
+
+header h1 {
+    background-color: #AEAEAE;
+    align-self: center;
+    padding: 15px 50px;
+    margin: 30px;
+    font-size: 48px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+
+
+
+/* 3. HORIZONTAL NAV BAR STYLES
+---------------------------------- */
+
+nav {
+    background-color: #A5A3A4;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 48px;
+    list-style: none;
+    padding-left: 25px;
+}
+
+nav ul li {
+    flex-basis: 92px;
+    align-self: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+
+/* 4. MAIN CONTENT SECTION STYLES
+---------------------------------- */
+
+#main-content-wrapper {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+/* 4. MAIN CONTENT SECTION STYLES
+---------------------------------- */
+
+#main-content-wrapper section {
+    padding: 20px 36px;
+    background-color: #F3EFF0;
+    width: 67%;
+}
+
+#main-content-wrapper section h2 {
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+#main-content-wrapper section p {
+    padding-bottom: 25px;
+}
+
+
+
+
+/* 5. RIGHT ASIDE STYLES
+---------------------------------- */
+
+#main-content-wrapper aside {
+    flex-basis: 33%;
+    background-color: #CECCCD;
+}
+
+#main-content-wrapper aside h3 {
+    font-size: 24px;
+    padding: 25px;
+}
+
+#main-content-wrapper aside ul {
+    padding: 0 46px;
+}
+
+
+
+
+/* 6. FOOTER STYLES
+---------------------------------- */
+
+footer {
+    background-color: #514F50;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 35px;
+    font-size: 14px;
+}
